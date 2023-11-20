@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Lobby</title>
+</head>
+<body>
+  <input type="text" id="gameId" placeholder="Enter Game ID">
+  <button onclick="createGame()">Create Game</button>
+  <button onclick="joinGame()">Join Game</button>
+  <div id="gameStatus"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
